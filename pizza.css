@@ -10,12 +10,11 @@ nav{padding:5px;
     color:#FFFFFF;
     display:flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content:space-around;
     font-size:large;
 }
    #restaurant-name{padding:0px;
-    display: flex;
-align-items: center;
 margin: 0px;
 }
 .navigation{width:60vw;
