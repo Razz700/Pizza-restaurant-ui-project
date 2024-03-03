@@ -94,7 +94,7 @@ justify-content: space-around;
 
 .menu{margin:0px;
     width:100vw;
-    height:100vh;
+    height:auto;
     background-color: #000000;
     color:white;
     display: flex;
