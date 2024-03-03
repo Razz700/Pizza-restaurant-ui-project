@@ -5,6 +5,7 @@ header{  position:sticky;
     #restaurant-name>a{color:white;
     text-decoration: none;}
 nav{padding:5px;
+    padding-bottom:0px;
     width:100vw;
     background-color:#000000;
     color:#FFFFFF;
@@ -15,10 +16,11 @@ nav{padding:5px;
     font-size:large;
 }
    #restaurant-name{padding:0px;
-margin: 0px;
+margin: auto;
 }
 .navigation{width:60vw;
 padding:0px; 
+margin:auto;
 }
 header li{list-style-type:none;}
 header>nav>ul>li>a>img{padding:0px; margin:0px;
@@ -28,6 +30,7 @@ header>nav>ul>li>a>img{padding:0px; margin:0px;
     header>nav>ul>li>a{color:white;
     text-decoration: none;
 padding: 5px;}
+#social-media-icons{margin: auto;}
 nav>ul{
     display:flex;
     justify-content:space-evenly;
