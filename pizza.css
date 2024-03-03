@@ -1,0 +1,298 @@
+body{margin-left: 0px;
+top:0px;}
+header{  position:sticky;
+    top:0px;}
+    #restaurant-name>a{color:white;
+    text-decoration: none;}
+nav{padding:5px;
+    width:100vw;
+    background-color:#000000;
+    color:#FFFFFF;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    font-size:large;
+}
+   #restaurant-name{padding:0px;
+    display: flex;
+align-items: center;
+margin: 0px;
+}
+.navigation{width:65vw;
+padding:0px; 
+}
+header li{list-style-type:none;}
+header>nav>ul>li>a>img{padding:0px; margin:0px;
+    width:50px;
+    height: 50px;
+    object-fit: contain;}
+    header>nav>ul>li>a{color:white;
+    text-decoration: none;
+padding: 5px;}
+nav>ul{
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin:0px;
+}
+
+
+#menu-heading{font-weight: 800;
+border-bottom:10px solid #F24C4C;
+width:60vw;
+font-size:40px;
+padding: 0px;
+}
+.menucontent p{font-size:20px;
+width: 60vw;
+padding:5px;}
+.menucontent{
+    color:white;
+background-image:url('https://s3-alpha-sig.figma.com/img/791f/9ca1/801cf713555ea70ba295e8de05e15650?Expires=1710115200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Pix86pvgBvlS6LfKOC9tyPO9Z15-cMqObPaLbz6w~w09Ls-HWb1oM3sWVArYIOW9syPQU4m5D36tvrY83DUkpGhCtdIEAbaQT4NCXKUfVJEILXKwaZS6ax128b8C3ZeHg39qOILGZ6wY8JJC0itFDSKZ5V1moVxLKdC765as94vcfZ7drQ~V1H3IQ1oM6akEpsEhm4Ck2VbDV1WCkIclsVos-clRIhEG17Bx9IMs6i4msG5peNom6d7F~~o~UtdX6uNVVDcTveEUvFQwyAZR48S-89aWubDa9HCf6SfTSea~Lqh2Mr~9A056PfmhCIEpEOE22YJw9UX-AucB9ILuFw__');
+height:100vh;
+width:100.85vw;
+background-repeat: no-repeat;
+background-size:cover;
+background-position:center;
+display: flex;
+flex-direction: column;
+justify-content: end;
+
+}
+
+
+.aboutus{margin:auto;
+    background-color: #000000;
+    color:white;
+    padding:5px;
+    width:100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;  
+}
+.aboutus img{width:30vw; 
+border-radius: 10px;
+box-shadow:0px 0px 10px red;
+object-fit: cover;
+}
+.aboutus>h2{border-bottom:8px solid red;
+text-align:center;
+width:200px;
+margin:auto;
+}
+.aboutus>div>p{
+    border-top:2px solid red;
+    width:45vw;
+    text-align: justify;
+}
+.aboutus>div{display:flex;
+flex-wrap:wrap;
+justify-content: space-around;
+}
+
+
+.menu{margin:0px;
+    width:100vw;
+    height:100vh;
+    background-color: #000000;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    padding:5px;
+    padding-top:70px;
+}
+.menu>h2{
+    border-bottom: 8px solid red;
+    width:200px;
+    text-align: center;
+    margin:auto;
+}
+.menu>p{
+    text-align: justify;
+    padding:10px;
+}
+.menuitems{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+}
+.menuitems>div{
+ color:white;
+ display: grid;
+ grid-template-columns:1fr 1fr;
+ margin:0px;
+ padding:15px;
+}
+.menuitems>div>div{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin:0px;
+}
+.menuitems>div>div>h3{color:#F2C94C; margin:0px; padding: 0px;
+}
+.menuitems>div>img{
+    width:20vw;
+    height:20vh;
+    object-fit: cover;
+    margin-left:5px;
+    border-radius:5px;
+}
+.menuitems>div>div>p{
+    text-align: justify;
+}
+
+/*alternative to bootstrap*/
+.carousel{width:100vw;
+height: 100vh;
+padding:5px;
+margin:0px;
+background-color:black;
+padding-top: 30px;}
+.carousel>h2{
+    border-bottom: 8px solid red;
+    width:200px;
+    text-align: center;
+    margin:auto;
+    color:white;
+    padding-top: 30px;
+}
+.carousel>ul>li{list-style-type: none;}
+.carousel>ul>li>#carousel-image1{
+    width:80vw;
+    height:80vh;
+    margin:0px;
+    padding: 0px;
+    object-fit: cover;
+    object-position:center;
+}
+.carousel>ul>li>.carousel-icon{
+    width:40px;
+    height: 40px;
+    padding: 0px;
+    margin: 0px;
+}
+.carousel>ul{display: flex;
+justify-content: space-between;
+align-items: center;}
+.carousel>div{text-align: center;
+padding: auto;}
+
+.gallery{
+    width:100vw;
+height: 100vh;
+padding:5px;
+margin:0px;
+background-color:black;
+display: grid;
+grid-template-columns: 3fr 1fr 1fr;
+grid-template-rows:1fr 1fr  1fr 1fr 1fr 1fr 1fr;
+grid-template-areas:"g g g" 
+                    "a b c"
+                    "a b c"
+                    "a d c"
+                    "a d e"
+                    "a f e"
+                    "a f e";
+                    padding-top:60px;
+}
+.gallery img{width:100%;
+height:100%;
+object-fit: cover;
+border-radius: 10px;
+}
+#g1{grid-area:a;
+padding: 5px;}
+#g2{grid-area:b; padding: 5px;}
+#g3{grid-area:c; padding: 5px;}
+#g4{grid-area:d; padding: 5px;}
+#g5{grid-area:e; padding: 5px;}
+#g6{grid-area:f; padding: 5px;}
+#gh{grid-area:g;}
+.gallery>h2{border-bottom: 8px solid red;
+    width:200px;
+    text-align: center;
+    margin:auto;
+    color:white;}
+
+
+    .findus{
+        width:100vw;
+        height: 100vh;
+        padding:5px;
+        margin:0px;
+        background-color:black;
+        color:white;
+    }
+    .findus>h2{border-bottom: 8px solid red;
+        width:200px;
+        text-align: center;
+        margin:auto;
+        color:white;
+        padding-top: 60px;
+    }
+    .findus>div>div>div{
+        display:flex;
+        font-size: small;
+        align-items: center;
+    }
+    .findus>div>div{display: flex;
+    flex-direction: column;
+padding-right: 20px;}
+    .findus>div>div>div>img{
+        color: white;
+        width:25px;
+        height:25px;
+        object-fit: contain;
+        padding: 10px;
+    }
+    .findus>div{display:flex;
+        padding:50px;
+    }
+    .findus>div>iframe{border-radius: 10px;
+        width:35vw;
+        height: 40vh;
+        object-fit: cover;
+        border: 1px solid red;
+        box-shadow:0px 0px 10px red;
+    }
+
+    #section-ourteam{
+        width:100vw;
+        background-color: #000000;
+        color:white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+
+    }
+    #section-ourteam>img{height:15vh;
+    padding-left:20px;}
+    #section-ourteam>div>div>img{width:25px;
+    height: 25px;
+padding: 5px;}
+    #section-ourteam{display:flex;
+    flex:wrap;}
+    #section-ourteam>div{display: flex;
+    flex-direction: column;
+padding-right:60px;}
+    #section-ourteam>div>div{display: flex;
+    align-items:center;}
+
+    @media screen and (max-width:800px){
+    .menu{
+        height: auto;} }
+    @media screen and (max-width:700px){
+.menuitems{
+    display: flex;
+    flex-direction: column;
+}
+.menuitems>div>img{
+    width:35vw;
+    height:30vh;
+    object-fit: cover;
+    margin-left:5px;
+    border-radius:5px;
+}}
