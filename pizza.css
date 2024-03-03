@@ -12,8 +12,8 @@ nav{padding:5px;
     display:flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content:space-around;
-    font-size:large;
+    justify-content:space-between;
+    font-size:medium;
 }
    #restaurant-name{padding:0px;
 margin: auto;
@@ -33,10 +33,11 @@ padding: 5px;}
 #social-media-icons{margin: auto;}
 nav>ul{
     display:flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
     align-items: center;
     flex-wrap: wrap;
     margin:0px;
+    padding:0px;
 }
 
 
