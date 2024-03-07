@@ -288,11 +288,11 @@ margin: 0px;}
     margin-left:5px;
     border-radius:5px;
 }
-#section-aboutus>div>p{width:70vw;}
-#section-aboutus>div>img{width: 70vw;}
+#section-aboutus>div>p{width:80vw;}
+#section-aboutus>div>img{width: 80vw;}
 #section-aboutus>div{display: flex;
 flex-wrap: wrap;}
-#section-findus>div>iframe{width: 70vw;}
+#section-findus>div>iframe{width: 80vw;}
 #section-findus>div{
     display:flex;
     flex-wrap: wrap;
