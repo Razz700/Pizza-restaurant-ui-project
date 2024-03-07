@@ -288,8 +288,8 @@ margin: 0px;}
     margin-left:5px;
     border-radius:5px;
 }
-#section-aboutus>div>p{width:80vw;}
-#section-aboutus>div>img{width: 80vw;}
+#section-aboutus>div>p{width:90vw;}
+#section-aboutus>div>img{width: 90vw;}
 #section-aboutus>div{display: flex;
 flex-wrap: wrap;}
 #section-findus>div>iframe{width: 80vw;}
