@@ -257,7 +257,7 @@ padding-right: 20px;}
         padding: 5px;
 
     }
-    #section-ourteam>img{height:100px;
+    #section-ourteam>img{height:120px;
     padding-left:20px;}
     #section-ourteam>div>div>img{width:30px;
     height: 30px;
@@ -269,7 +269,7 @@ justify-content: space-between;
 }
     #section-ourteam>div{display: flex;
     flex-direction: column;
-padding-right:60px;}
+padding-right:20px;}
     #section-ourteam>div>div{display: flex;
     align-items:center;
 padding: 0px;
@@ -298,4 +298,6 @@ flex-wrap: wrap;}
     flex-wrap: wrap;
     justify-content: center;
 }
+#section-ourteam>div{margin:auto;}
+#section-ourteam>img{margin:auto; padding-bottom:5px;}
 }
